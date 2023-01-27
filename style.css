@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+}
+
+.container{
+    height: 535px;
+    width: 327px;
+    border-radius: 23px;
+    background-color: #FFF;
+    display: grid;
+    justify-content: center;
+}
+.imagemobile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: -110px;
+}
+.faqcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    padding-left: 22px;
+    padding-right: 30px;  
+}
+
+h3{   
+    font-family: 'Kumbh Sans';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4B4C5F;
+}
+.answer{
+    font-family: 'Kumbh Sans';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4B4C5F;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px; 
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kumbh Sans';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #1E1F36;  
+}
+.icon1{
+    position: absolute;
+       margin-top: 5px;
+       margin-left: 250px;    
+}
+.answer{
+    font-family: Kumbh Sans;
+    font-size: 12px;
+    color: #8284a8;
+}
+.title__question:hover{
+    color: red;
+    cursor: grab;
+}
+
+
+@media only screen and (max-width:1438px){
+    .desctopimg{
+        display: none;
+    }
+}
+@media only screen and (min-width:1439px){
+    .container{
+        height: 509px;
+        width: 920px; 
+        border-radius: 23px; 
+    }  
+    .mobileimg{
+        display: none;
+      }
+    .childfaqcont{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: -280px;
+        padding-left: 531px;
+        padding-right: 90px;
+    }
+    .desctopimg{
+       margin-left: -505px;
+       margin-top: 150px; 
+    }
+    .title__question:hover{
+       color: red;
+       cursor: grab;
+    }
+    .answer{
+        display: none;
+    }
+    .title__question{
+        margin-top: 20px;
+    }
+    .icon1{
+        margin-top: 25px;
+    }
+    
+    
+}
+
+
+
