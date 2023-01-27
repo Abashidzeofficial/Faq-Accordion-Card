@@ -3,7 +3,10 @@
 
 ### Links
 
-- Live Site URL: ![active-states](https://user-images.githubusercontent.com/114133338/215172612-09960cf8-6935-4c7b-8a69-09c84659f224.jpg)
+- Live Site URL: https://abashidzeofficial.github.io/Faq-Accordion-Card/
+
+
+![active-states](https://user-images.githubusercontent.com/114133338/215172612-09960cf8-6935-4c7b-8a69-09c84659f224.jpg)
 
 
 
